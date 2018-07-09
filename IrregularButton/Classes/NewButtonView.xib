@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NewButtonView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6v4-bW-eC6">
+                    <rect key="frame" x="40" y="50" width="100" height="100"/>
+                    <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Muf-fz-unT"/>
+                        <constraint firstAttribute="height" constant="100" id="ka4-pq-l4c"/>
+                    </constraints>
+                    <state key="normal" image="button-normal.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" image="button-highlighted.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akZ-Mo-4dc" customClass="ShapedButton">
+                    <rect key="frame" x="235" y="70" width="100" height="100"/>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="FuI-Pi-O5e"/>
+                        <constraint firstAttribute="height" constant="100" id="xV4-Wf-9Ux"/>
+                    </constraints>
+                    <state key="normal" image="button-normal.png">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" image="button-highlighted.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nf4-bf-xuC">
+                    <rect key="frame" x="30" y="253" width="160" height="161"/>
+                    <state key="normal" image="topleft-normal.png"/>
+                    <state key="highlighted" image="topleft-highlighted.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHe-9L-FrN" customClass="ShapedButton">
+                    <rect key="frame" x="185" y="454" width="160" height="161"/>
+                    <state key="normal" image="topleft-normal.png"/>
+                    <state key="highlighted" image="topleft-highlighted.png"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="普通btn two" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJ7-G5-L6d">
+                    <rect key="frame" x="254" y="273" width="81" height="17.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="普通one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KVs-2X-Icf">
+                    <rect key="frame" x="63" y="170" width="55.5" height="17.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不规则按钮和普通按钮点击区域demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwg-Ue-LC9">
+                    <rect key="frame" x="63.5" y="639" width="248.5" height="17.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不规则one" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMk-jh-vXe">
+                    <rect key="frame" x="250" y="190" width="70.5" height="17.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不规则btn two" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="020-s6-oJl">
+                    <rect key="frame" x="40" y="474" width="96" height="17.5"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KVs-2X-Icf" firstAttribute="top" secondItem="6v4-bW-eC6" secondAttribute="bottom" constant="20" id="1Ha-IN-wFJ"/>
+                <constraint firstAttribute="trailing" secondItem="yHe-9L-FrN" secondAttribute="trailing" constant="30" id="BKa-Dv-IwJ"/>
+                <constraint firstItem="KVs-2X-Icf" firstAttribute="centerX" secondItem="6v4-bW-eC6" secondAttribute="centerX" id="G1g-gK-Bas"/>
+                <constraint firstItem="akZ-Mo-4dc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="70" id="GcR-Kc-o7n"/>
+                <constraint firstItem="020-s6-oJl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="SAq-yk-9KO"/>
+                <constraint firstAttribute="trailing" secondItem="akZ-Mo-4dc" secondAttribute="trailing" constant="40" id="VM0-rm-zQc"/>
+                <constraint firstAttribute="bottom" secondItem="nwg-Ue-LC9" secondAttribute="bottom" constant="10" id="VSi-UU-4pH"/>
+                <constraint firstItem="yHe-9L-FrN" firstAttribute="top" secondItem="Nf4-bf-xuC" secondAttribute="bottom" constant="40" id="Veo-6V-mwq"/>
+                <constraint firstItem="6v4-bW-eC6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="Xcz-Zd-khq"/>
+                <constraint firstItem="CMk-jh-vXe" firstAttribute="centerX" secondItem="akZ-Mo-4dc" secondAttribute="centerX" id="dpr-H6-Q6A"/>
+                <constraint firstItem="6v4-bW-eC6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="qsa-kp-BiM"/>
+                <constraint firstAttribute="trailing" secondItem="yJ7-G5-L6d" secondAttribute="trailing" constant="40" id="sce-L5-7Eu"/>
+                <constraint firstItem="nwg-Ue-LC9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="scw-Ap-hHf"/>
+                <constraint firstItem="yJ7-G5-L6d" firstAttribute="top" secondItem="Nf4-bf-xuC" secondAttribute="top" constant="20" id="udU-DS-grx"/>
+                <constraint firstItem="CMk-jh-vXe" firstAttribute="top" secondItem="akZ-Mo-4dc" secondAttribute="bottom" constant="20" id="vde-Bu-5TH"/>
+                <constraint firstItem="Nf4-bf-xuC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="xEc-II-xUk"/>
+                <constraint firstItem="020-s6-oJl" firstAttribute="top" secondItem="yHe-9L-FrN" secondAttribute="top" constant="20" id="xa9-yZ-uDm"/>
+                <constraint firstItem="Nf4-bf-xuC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="zjW-7v-5m4"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button-highlighted.png" width="100" height="100"/>
+        <image name="button-normal.png" width="100" height="100"/>
+        <image name="topleft-highlighted.png" width="160" height="161"/>
+        <image name="topleft-normal.png" width="160" height="161"/>
+    </resources>
+</document>
